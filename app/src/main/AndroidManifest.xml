@@ -19,7 +19,7 @@
             </activity>
     </application>
     <service
-        android:name="MyService"
+        android:name=".ClapperService"
         android:icon="@drawable/icon"
         android:label="@string/service_name"
         >

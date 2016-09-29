@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
         boolean es = SP.getBoolean("enableSound",false);
         boolean el = SP.getBoolean("enableLight",false);
 
-        System.out.println("Settings" + es);
     }
 
 
