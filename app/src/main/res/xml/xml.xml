@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference android:title="Enable light"
+        android:key="enableLight"
+        android:defaultValue="false"
+        android:summary="Toggle this option in order to enable a flashing light when your phone detects your clap or whistle"
+        />
+    <SwitchPreference android:title="Enable Sonar Sound"
+        android:key="enableSound"
+        android:summary="Toggle this option in order to enable a loud sonar sound when your phone detects your clap or whistle"
+        android:defaultValue="false"
+        />
+</PreferenceScreen>
